@@ -162,3 +162,34 @@ header {
         grid-template-columns: 1fr;
     }
 }
+footer {
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    animation: fadeIn 3s ease-in;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s, transform 0.3s;
+    animation: fadeIn 2s ease-in;
+  }
+  
+  .social-links a:hover {
+    color: #ccc;
+    transform: scale(1.2) rotate(15deg);
+  }
