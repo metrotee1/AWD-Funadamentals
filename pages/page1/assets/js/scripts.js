@@ -31,14 +31,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
     setTimeout(typeText, delayBeforeStart);
 });
-
-const style = document.createElement("style");
-style.textContent = `
-@keyframes blink {
-    50% {
-        opacity: 0;
-    }
-}
-`;
-document.head.appendChild(style);
-

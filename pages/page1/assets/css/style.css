@@ -108,7 +108,14 @@ header {
     font-weight: 700;
     text-shadow: 0 0 3px rgb(255, 255, 255);
     margin-bottom: 2rem;
+    transition: transform 1s ease, opacity 1s ease;
 }
+
+.title:hover {
+    transform: translateY(10px);
+    opacity: 0.5;
+}
+
 
 .fundamentals-container {
     display: grid;
@@ -125,7 +132,7 @@ header {
     color: var(--color-primary-1);
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.5s ease, box-shadow 0.3s ease;
+    transition: transform 1s ease, box-shadow 1s ease;
     position: relative;
 }
 
@@ -133,6 +140,7 @@ header {
     transform: scale(1.08);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
+
 
 .fundamental-title {
     font-size: 2rem;
@@ -171,15 +179,12 @@ footer {
     bottom: 0;
     animation: fadeIn 3s ease-in;
   }
-  
   footer p {
     margin: 0;
   }
-  
   .social-links {
     margin-top: 10px;
   }
-  
   .social-links a {
     color: #ffffff;
     margin: 0 10px;
@@ -188,7 +193,6 @@ footer {
     transition: color 0.3s, transform 0.3s;
     animation: fadeIn 2s ease-in;
   }
-  
   .social-links a:hover {
     color: #ccc;
     transform: scale(1.2) rotate(15deg);
