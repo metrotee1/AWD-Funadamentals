@@ -61,17 +61,13 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- AWD- FUNDAMENTALS
+- DESCRIPTION OF THE 4 CODING FUNDAMENTALS
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -96,7 +92,8 @@ AWD-Fundamentals
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.gif/.png
+|   |   └─ bggif.gif
+|   |   └─ kllogo.png
 |   └─ js
 |       └─ script.js
 └─ pages
@@ -105,7 +102,8 @@ AWD-Fundamentals
 |     |  └─ css
 |     |  |  └─ style.css
 |     |  └─ img
-|     |  |  └─ fileWith.gif/.png
+|     |      └─ bggif.gif
+|     |      └─ kllogo.png
 |     |  └─ js
 |     |     └─ script.js
 |     └─ index.html
